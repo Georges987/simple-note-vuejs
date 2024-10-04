@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Status } from '@/shared/types';
-import { useTaskStore } from '@/stores/task.store'
+import { Status } from '../../shared/types/index';
+import { useTaskStore } from '../../stores/task.store'
 import { computed, ref, watch } from 'vue';
 
 const store = useTaskStore()

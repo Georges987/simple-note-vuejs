@@ -1,6 +1,4 @@
-enum Status {
+export const enum Status {
     Pending = 'pending',
     Completed = 'completed',
 }
-
-export { Status };
